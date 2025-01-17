@@ -17,3 +17,7 @@ function adicionarAmigo(){
     console.log(nomes);
 }
 
+function limparCampo() {
+    valorInput = document.querySelector('input');
+    valorInput.value = '';
+};
