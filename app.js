@@ -32,10 +32,11 @@ function percorrerLista(){
 };
 
 function sortearAmigo() {
+    let exibirResultado = document.getElementById("resultado");
     if (nomesAmigos == '') {
         alert('Não tem nenhum amigo para sortear, por favor, adicione amigos');
     } else {
         let sorteando = parseInt(Math.random() * nomesAmigos.length);
-        console.log(nomesAmigos[sorteando]);
+        exibirResultado.innerHTML = nomesAmigos[sorteando];
     }
-}
+};
