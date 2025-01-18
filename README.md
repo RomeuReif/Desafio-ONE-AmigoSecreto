@@ -2,7 +2,7 @@
 
 ## Live Preview 🚀
 Confira o projeto funcionando diretamente no seguinte link:  
-[Gerenciador de Amigos - Vercel]([https://seu-link-vercel.com](https://desafio-one-amigo-secreto.vercel.app/))
+[Gerenciador de Amigos - Vercel]([https://desafio-one-amigo-secreto.vercel.app])
 
 **Descrição:**
 Este projeto é um sistema simples que permite gerenciar amigos, adicionando-os a uma lista dinâmica e sorteando um amigo aleatoriamente. Ele foi desenvolvido com foco no fortalecimento de habilidades em lógica de programação utilizando JavaScript.
