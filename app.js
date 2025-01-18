@@ -27,8 +27,15 @@ function percorrerLista(){
         let li = document.createElement('li'); // cria elemento li
         li.innerHTML = nomesAmigos[i]; // adiciona o texto
         exibirNomes.appendChild(li); // adiciona o li na lista ul
-        console.log(nomesAmigos[i])
+        console.log(nomesAmigos[i]);
     }
-   
-}
+};
 
+function sortearAmigo() {
+    if (nomesAmigos == '') {
+        alert('Não tem nenhum amigo para sortear, por favor, adicione amigos');
+    } else {
+        let sorteando = parseInt(Math.random() * nomesAmigos.length);
+        console.log(nomesAmigos[sorteando]);
+    }
+}
