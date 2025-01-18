@@ -27,7 +27,7 @@ function percorrerLista(){
         let li = document.createElement('li'); // cria elemento li
         li.innerHTML = nomesAmigos[i]; // adiciona o texto
         exibirNomes.appendChild(li); // adiciona o li na lista ul
-        console.log(nomesAmigos[i]);
+        //console.log(nomesAmigos[i]);
     }
 };
 
