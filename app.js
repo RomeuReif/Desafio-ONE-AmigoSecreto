@@ -7,7 +7,7 @@ function adicionarAmigo(){
         alert("Por favor, insira um nome.");
     } else {
         if (nomesAmigos.includes(valorInput)){
-            alert("Nome duplicado.");
+            alert("Nome duplicado, por favor, insira outro nome.");
             limparCampo();
         } else {
             nomesAmigos.push(valorInput); // adicionando dentro da lista
