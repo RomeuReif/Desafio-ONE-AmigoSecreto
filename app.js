@@ -6,9 +6,15 @@ function adicionarAmigo(){
     if (valorInput == '') {
         alert("Por favor, insira um nome.");
     } else {
-        nomesAmigos.push(valorInput); // adicionando dentro da lista
-        percorrerLista();
-        limparCampo();
+        if (nomesAmigos.includes(valorInput)){
+            alert("Nome duplicado.");
+            limparCampo();
+        } else {
+            nomesAmigos.push(valorInput); // adicionando dentro da lista
+            percorrerLista();
+            limparCampo();
+        }
+        
     }
     
     //console.log(nomesAmigos);
